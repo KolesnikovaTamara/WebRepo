@@ -1,0 +1,19 @@
+<div class='mat-typography'>
+  <header>
+    <md-toolbar color="primary">
+      <span>{{title}}</span>
+      <a [routerLink]="['second']">Second page</a>
+      <a [routerLink]="['/']">Home page</a>
+    </md-toolbar>
+  </header>
+
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+
+  <footer>
+    <md-toolbar color="primary">
+      <span>Footer</span>
+    </md-toolbar>
+  </footer>
+</div>
